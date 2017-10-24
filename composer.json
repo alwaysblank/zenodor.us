@@ -1,0 +1,12 @@
+{
+    "name": "zenodorus/core",
+    "description": "A collection of all the Zenodorus utilities.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ben Martinez-Bateman",
+            "email": "ben@alwaysblank.org"
+        }
+    ],
+    "require": {}
+}
