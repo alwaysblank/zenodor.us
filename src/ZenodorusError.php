@@ -12,7 +12,7 @@ class ZenodorusError {
   protected $description = null;
   protected $data = null;
 
-  public function __constuct(array $args)
+  public function __construct(array $args)
   {
     $this->code = $args['code'];
     $this->description = $args['description'];
@@ -47,7 +47,7 @@ class ZenodorusError {
   protected function get($prop)
   {
     if (property_exists($this, $prop)) {
-      return $prop;
+      return $this->$prop;
     } else {
       return false;
     }
