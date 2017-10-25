@@ -8,5 +8,10 @@
             "email": "ben@alwaysblank.org"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Zenodorus\\": "src"
+        }
+    },
     "require": {}
 }
