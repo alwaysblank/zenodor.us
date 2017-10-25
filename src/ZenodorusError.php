@@ -1,6 +1,6 @@
 <?php namespace Zenodorus;
 
-class Error {
+class ZenodorusError {
 
   const DEFAULTS = [
     'code' => "generic",
@@ -27,7 +27,7 @@ class Error {
     foreach (['code', 'description', 'data'] as $key) {
       if ($this->$key) {
         $return .= sprintf("<dt>%s</dt>", $key);
-        $return .= sprintf("<dd>%s</dd>", $this->$key);
+        $return .= sprintf("<dd>%s</dd>", 'data' === $key ? var_dump($this->$key) : $this->key );
       }
     }
 
