@@ -1,0 +1,4 @@
+{
+  "phpcs.standard": "phpcs.xml",
+  "editor.tabSize": 4,
+}
